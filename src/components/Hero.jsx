@@ -10,7 +10,7 @@ export default function Hero() {
         </p>
 
         <h1 className="hero__name">
-          Mohd Adil
+          Mohammed Adil
           <br />
           Shaikh
         </h1>
