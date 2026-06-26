@@ -2,11 +2,11 @@
 // Update CONTACT.linkedin / CONTACT.github with real profile URLs.
 
 export const PROFILE = {
-  name: 'Mohd Adil Shaikh',
+  name: 'Mohammed Adil Shaikh',
   role: 'Full-Stack Engineer',
   location: 'Mumbai, India',
   education: 'B.Tech, Computer Engineering — VESIT',
-  cgpa: '9.56',
+  cgpa: '9.46',
   status: 'Open to internships & freelance work',
   bio: "I'm a full-stack engineer studying Computer Engineering at VESIT, Mumbai — building across mobile, web, and backend, and shipping production software for real clients in between lectures.",
 }
@@ -14,8 +14,8 @@ export const PROFILE = {
 export const CONTACT = {
   email: 'shaikhmdadil191@gmail.com',
   phone: '+91 8097069099',
-  linkedin: '#', // TODO: replace with real LinkedIn URL
-  github: '#', // TODO: replace with real GitHub URL
+  linkedin: 'https://www.linkedin.com/in/mohammad-adil-shaikh-8a43b3320/', 
+  github: 'https://github.com/adil162006', 
 }
 
 export const TECH_STACK = [
@@ -68,6 +68,15 @@ export const PROJECTS = [
 
 export const EXPERIENCE = [
   {
+    period: 'Jul 2026 — Present',
+    role: 'Full-Stack Engineer',
+    org: 'CyreneAI',
+    location: 'Remote',
+    description:
+      'Working on Zygo event management platform, building features for event creation, ticketing, and attendee management. Implementing real-time updates and notifications.',
+  },
+
+  {
     period: 'Apr 2026 — May 2026',
     role: 'Freelance Full-Stack Developer',
     org: 'Seashore Enterprises',
@@ -84,7 +93,7 @@ export const EXPERIENCE = [
       'Built admin dashboard features for a visa application system, enabling real-time tracking of registrations and bookings. Designed and optimised REST APIs for user, booking, and document records, and integrated Resend for direct admin-to-user email.',
   },
   {
-    period: '2025 — 2026',
+    period: 'OCT 2025 — APR 2026',
     role: 'SE Co-ordinator',
     org: 'IEEE VESIT Student Chapter',
     location: 'Mumbai, India',
@@ -96,7 +105,7 @@ export const EXPERIENCE = [
 export const ACHIEVEMENTS = [
   {
     label: 'CGPA',
-    value: '9.56 / 10',
+    value: '9.46 / 10',
     detail: 'B.Tech Computer Engineering, VESIT',
   },
   {
@@ -122,7 +131,7 @@ export const SKILLS = [
   },
   {
     group: 'Backend',
-    items: ['Node.js', 'Express.js', 'Socket.io'],
+    items: [ 'Express.js', 'FASTAPI', 'REST APIs'],
   },
   {
     group: 'Databases',
