@@ -68,7 +68,7 @@ export const PROJECTS = [
 
 export const EXPERIENCE = [
   {
-    period: 'Jul 2026 — Present',
+    period: 'Jun 2026 — Present',
     role: 'Full-Stack Engineer',
     org: 'CyreneAI',
     location: 'Remote',
