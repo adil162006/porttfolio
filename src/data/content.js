@@ -74,7 +74,7 @@ export const EXPERIENCE = [
     role: 'Freelance Full-Stack Developer',
     org: 'Seashore Enterprises',
     location: 'Remote',
-    description:'Designed and developed a **Site Management Web Application** for an HVAC contracting firm using **Next.js 16**, transforming paper-based site operations into a centralized digital platform. The application features **role-based authentication** with dedicated Owner and Supervisor dashboards. Owners can create and manage projects, assign supervisors, monitor all ongoing projects, view organization-wide payment history, and access financial overviews. Supervisors are limited to their assigned projects, where they can submit daily work logs and record client payments without access to overall financial data or unrelated projects. The application streamlines project management, improves accountability through permission-based access control, and was successfully deployed on **Vercel**.'
+    description:'Designed and developed a **Site Management Web Application** for an HVAC contracting firm using **Next.js 16**, transforming paper-based site operations into a centralized digital platform. The application features **role-based authentication** with dedicated Owner and Supervisor dashboards. Owners can create and manage projects, assign supervisors, monitor all ongoing projects, view organization-wide payment history, and access financial overviews. Supervisors are limited to their assigned projects, where they can submit daily work logs and record client payments without access to overall financial data or unrelated projects. The application streamlines project management, improves accountability through permission-based access control.'
   },
   {
     period: 'Dec 2025 — Jan 2026',
