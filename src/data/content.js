@@ -67,14 +67,7 @@ export const PROJECTS = [
 ]
 
 export const EXPERIENCE = [
-  {
-    period: 'Jun 2026 — Present',
-    role: 'Full-Stack Engineer',
-    org: 'CyreneAI',
-    location: 'Remote',
-    description:
-      'Working on Zygo event management platform, building features for event creation, ticketing, and attendee management. Implementing real-time updates and notifications.',
-  },
+  
 
   {
     period: 'Apr 2026 — May 2026',
