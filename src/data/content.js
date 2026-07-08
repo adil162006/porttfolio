@@ -28,26 +28,36 @@ export const TECH_STACK = [
 ]
 
 export const PROJECTS = [
-  {
+ {
     index: '01',
+    title: 'Resonance: AI Voice Platform',
+    year: '2026',
+    tags: ['Next.js', 'tRPC', 'Prisma', 'AWS S3', 'Clerk', 'Polar', 'Chatterbox API'],
+    description:
+      'A multi-tenant AI text-to-speech and voice cloning platform built with Next.js and tRPC. It handles real-time speech synthesis via the Chatterbox API, stores audio assets securely in AWS S3 with signed URLs, and manages organization-scoped access via Clerk. Tiered subscriptions and billing workflows are fully integrated using Polar.',
+    link: 'https://github.com/adilasync/Auris',
+  }
+  ,
+  {
+    index: '02',
     title: 'Full-Stack E-Commerce App',
     year: '2026',
     tags: ['React Native', 'Expo', 'Node.js', 'Stripe', 'Clerk'],
     description:
       'A cross-platform mobile e-commerce app paired with a full admin dashboard for managing products and orders. Stripe and Clerk power secure checkout and real-time order tracking, with background jobs via Inngest and production monitoring through Sentry.',
-    link: '#',
+    link: 'https://github.com/adil162006/ecommerce-reactnative',
   },
   {
-    index: '02',
+    index: '03',
     title: 'AI Mock Interview Platform',
     year: '2025',
     tags: ['React.js', 'Google Gemini', 'Monaco Editor', 'Stream.io'],
     description:
       'A mock interview platform that uses Google Gemini to generate personalised technical questions and structured feedback from a candidate\u2019s resume. Monaco Editor and the Piston API handle secure, multi-language code execution shared live across participants.',
-    link: '#',
+    link: 'https://github.com/adil162006/Interview-Platform',
   },
   {
-    index: '03',
+    index: '04',
     title: 'RAG Document Analyzer',
     year: '2025',
     tags: ['RAG', 'Accessibility', 'Document AI'],
@@ -56,7 +66,7 @@ export const PROJECTS = [
     link: '#',
   },
   {
-    index: '04',
+    index: '05',
     title: 'Inventory Management System',
     year: '2025',
     tags: ['Real-time', 'Multi-user', 'Hackathon Build'],
