@@ -28,6 +28,8 @@ export default function About() {
       </div>
 
       <ol className="timeline">
+         <span className="section__label">Work</span>
+        <h2 className="section__title">Experience</h2>
         {EXPERIENCE.map((item) => (
           <li key={item.role} className="timeline__item">
             <span className="timeline__period">{item.period}</span>

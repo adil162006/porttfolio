@@ -2,8 +2,8 @@ import { useEffect, useState } from 'react'
 import { PROFILE } from '../data/content.js'
 
 const LINKS = [
-  { href: '#work', label: 'Work' },
   { href: '#about', label: 'About' },
+  { href: '#work', label: 'Work' },
   { href: '#skills', label: 'Skills' },
   { href: '#contact', label: 'Contact' },
 ]
