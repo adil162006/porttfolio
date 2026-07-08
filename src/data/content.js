@@ -30,7 +30,7 @@ export const TECH_STACK = [
 export const PROJECTS = [
  {
     index: '01',
-    title: 'Resonance: AI Voice Platform',
+    title: 'Auris: AI Voice Platform',
     year: '2026',
     tags: ['Next.js', 'tRPC', 'Prisma', 'AWS S3', 'Clerk', 'Polar', 'Chatterbox API'],
     description:
